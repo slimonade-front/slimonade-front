@@ -1,0 +1,8 @@
+{
+    "version": "0.0.1",
+    "admin_routes": 0,
+    "front_routes": 1,
+    "container": 1,
+    "middlewares": 1,
+    "config": 1
+}

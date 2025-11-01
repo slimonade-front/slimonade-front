@@ -1,0 +1,2 @@
+<?= $footBefore ?>
+<?= $footAfter ?>

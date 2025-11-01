@@ -1,0 +1,11 @@
+{
+  "name": "infinite-core",
+  "dependencies": {
+    "tether": "^1.4.4"
+  },
+  "ignore": [
+    "*",
+    "!dist/"
+  ],
+  "directory" : "assets"
+}

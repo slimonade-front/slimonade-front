@@ -1,0 +1,12 @@
+{
+    "name": "purge-css",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "purgecss --css app/Main/assets/styles.css ../../Core/assets/bootstrap/dist/css/bootstrap.min.css --content ../Views/*.php --content ../Views/**/*.php --output dist/css/styles.min.css"
+    },
+    "devDependencies": {
+        "purgecss": "^6.0.0"
+    }
+}
