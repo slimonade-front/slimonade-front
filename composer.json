@@ -2,7 +2,7 @@
     "name": "slimonde-front/slimonde-front",
     "description": "Multi-purpose PHP framework using awesome things",
     "type": "project",
-    "version": "1.0.0",
+    "version": "0.1.0.0-beta",
     "license": "MIT",
     "authors": [
         {
