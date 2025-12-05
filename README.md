@@ -3,6 +3,12 @@
 
 > Not for production use
 
+## Install command
+
+```
+composer create-project slimonde-front/slimonde-front
+```
+
 ## Discord
 https://discord.gg/VSqeKMhQ
 
