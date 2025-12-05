@@ -1,6 +1,12 @@
 # Slimonade Front - beta release
 ### It is combination of [ Slim Framework ]( https://www.slimframework.com/ ) and [ LemonadeJS ]( https://lemonadejs.net/ )
 
+[![Latest Unstable Version](http://poser.pugx.org/slimonde-front/slimonde-front/v/unstable)](https://packagist.org/packages/slimonde-front/slimonde-front)
+[![Total Downloads](http://poser.pugx.org/slimonde-front/slimonde-front/downloads)](https://packagist.org/packages/slimonde-front/slimonde-front)
+[![License](http://poser.pugx.org/slimonde-front/slimonde-front/license)](https://packagist.org/packages/slimonde-front/slimonde-front)
+[![Monthly Downloads](http://poser.pugx.org/slimonde-front/slimonde-front/d/monthly)](https://packagist.org/packages/slimonde-front/slimonde-front)
+[![PHP Version Require](http://poser.pugx.org/slimonde-front/slimonde-front/require/php)](https://packagist.org/packages/slimonde-front/slimonde-front)
+
 > Not for production use
 
 ## Install command
