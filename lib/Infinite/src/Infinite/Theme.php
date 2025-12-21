@@ -32,9 +32,9 @@ class Theme implements ExtensionInterface
         $engine->registerFunction('getAssets', Closure::bind(function () {
             return $this->container->get()->get('assets');
         }, $this));
-        // $engine->registerFunction('getCsrf', Closure::bind(function () {
-        //     return $this->container->get()->get('csrf')();
-        // }, $this));
+        $engine->registerFunction('getCsrf', Closure::bind(function () {
+            return $this->container->get()->get('csrf')();
+        }, $this));
         $engine->registerFunction('getSession', Closure::bind(function () {
             return $this->container->get()->get('session')();
         }, $this));

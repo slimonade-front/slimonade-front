@@ -92,6 +92,9 @@ class Infinite
         $fiber = new Fiber(function () {
             // Start error handling
             Errors::createLogsDir();
+            if (!file_exists(__DIR__ . '/../../../../logs/errors.log')) {
+                touch(__DIR__ . '/../../../../logs/errors.log');
+            }
             new Errors(new FileLogger(\realpath(__DIR__ . '/../../../../logs/errors.log')));
         });
 

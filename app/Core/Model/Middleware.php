@@ -79,9 +79,8 @@ class Middleware
                 }
                 // return $next($request, $response);
                 $response = $handler->handle($request);
-                $response->getBody();
                 // echo $c->get('ETag');exit;
-                return $response;
+                return $response->withHeader('powered-by', 'Slimonade-Front');
             } catch (\Exception $e) {
                 $logger = $c->get('log');
                 $logger->log($e->getCode(), $e->getMessage() . ' at ' . $e->getFile() . ':' . $e->getLine());
