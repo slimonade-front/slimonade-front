@@ -15,6 +15,10 @@
 composer create-project slimonde-front/slimonde-front
 ```
 
+## Showcase
+
+- https://ai-translator.great-site.net/ - It is AI Translator for free
+
 ## Discord
 https://discord.gg/VSqeKMhQ
 
