@@ -1,5 +1,4 @@
 module.exports = {
-  content: ['../Views/**/*.php'],
-  css: ['styles.css', '../../Core/assets/bootstrap/dist/css/bootstrap.min.css'],
-  output: 'dist/css/styles.min.css'
+  content: ['../Views/*.php', '../Views/**/*.php'],
+  css: ['../../Core/assets/bootstrap/dist/css/bootstrap.min.css', './styles.css'],
 }
