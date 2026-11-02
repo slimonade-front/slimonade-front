@@ -15,7 +15,7 @@
         "slim/slim": "^4.0",
         "slim/flash": "^0.4.0",
         "aura/session": "^4.0",
-        "aura/sql": "^5.0",
+        "aura/sql": "^6.1",
         "aura/sqlquery": "^3.0",
         "camspiers/json-pretty": "^1.0",
         "league/plates": "^3.3",
